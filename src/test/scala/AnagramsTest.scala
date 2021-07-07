@@ -29,4 +29,17 @@ class AnagramsTest extends FunSuite{
 
     assert(expected == AnagramsSet)
   }
+
+    test(testName = "HolaMundo_MapFill_IsDuplicated"){
+    val Anagrams = Map("moor" -> ListBuffer("romo", "moro", "moro"), "ahlo" -> ListBuffer("hola","olah"))
+    val expected : scala.collection.mutable.Map[String,ListBuffer[String]] = scala.collection.mutable.Map[String,ListBuffer[String]]()
+
+    HolaMundo.MapFill("romo",expected)
+    HolaMundo.MapFill("moro",expected)
+    HolaMundo.MapFill("hola",expected)
+    HolaMundo.MapFill("olah",expected)
+    HolaMundo.MapFill("moro",expected)
+
+    assert(expected != Anagrams)
+  }
 }
