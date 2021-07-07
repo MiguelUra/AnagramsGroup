@@ -22,9 +22,22 @@ object Anagrams{
     if(filename == null) throw new IllegalArgumentException
     if(filename.exists()){
       for(line<- Source.fromFile(filename).getLines()){
-        /*MapFill(line, AnagramsSet)*/
+        MapFill(line, AnagramsSet)
       }
     }
     else throw new FileNotFoundException(s"Can't find needed resource: $filename")
   }
+
+  def MapFill(line: String, AnagramSet: scala.collection.mutable.Map[String, ListBuffer[String]] = scala.collection.mutable.Map[String, ListBuffer[String]]()): Unit = {
+    val new_line = line.sorted
+    if (AnagramSet.contains(new_line)) {
+      //El if que falta
+      AnagramSet(new_line) += line
+
+    } else {
+      AnagramSet += (new_line -> ListBuffer[String]())
+      AnagramSet(new_line) += line
+    }
+  }
+
 }

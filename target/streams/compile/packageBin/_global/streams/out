@@ -1,0 +1,9 @@
+[debug] Packaging D:\Users\Jonaa\Documents\INTEC\Trimestre#8\Tendencias\AnagramsGroup\target\scala-2.13\anangrams-_2.13-0.1.jar ...
+[debug] Input file mappings:
+[debug] 	Anagrams$.class
+[debug] 	  D:\Users\Jonaa\Documents\INTEC\Trimestre#8\Tendencias\AnagramsGroup\target\scala-2.13\classes\Anagrams$.class
+[debug] 	Anagrams.class
+[debug] 	  D:\Users\Jonaa\Documents\INTEC\Trimestre#8\Tendencias\AnagramsGroup\target\scala-2.13\classes\Anagrams.class
+[debug] 	wordList.txt
+[debug] 	  D:\Users\Jonaa\Documents\INTEC\Trimestre#8\Tendencias\AnagramsGroup\target\scala-2.13\classes\wordList.txt
+[debug] Done packaging.
