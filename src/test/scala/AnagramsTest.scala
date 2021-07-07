@@ -4,9 +4,15 @@ import java.util.stream
 import scala.collection.mutable.ListBuffer
 import scala.io.Source
 class AnagramsTest extends FunSuite{
- test(testName = "Anagrams_GetPath_ArgsInput_IsNull_ThrowsNullArgumentException"){
-   assertThrows[IllegalArgumentException]{
-      Anagrams.GetPath(null)
+ test(testName = "Anagrams_GetPath_ArgsInput_IsNull_ThrowsNullArgumentException") {
+   assertThrows[IllegalArgumentException] {
+     Anagrams.GetPath(null)
+   }
+ }
+ test (testName = "Anagrams_GetPath_ArgsInput_FileNoExists_ThroesNotFoundException"){
+   var file = new File( "hola")
+   assertThrows[FileNotFoundException]{
+     Anagrams.GetPath(file)
    }
  }
 }
