@@ -1,16 +1,16 @@
-[0m[[0m[31merror[0m] [0m[0mC:\Users\amcab\Documents\Trimestre 7\Tendencias\AnagramsGroup\src\test\scala\AnagramsTest.scala:37:5: not found: value HolaMundo[0m
-[0m[[0m[31merror[0m] [0m[0m    HolaMundo.MapFill("romo",expected)[0m
-[0m[[0m[31merror[0m] [0m[0m    ^[0m
-[0m[[0m[31merror[0m] [0m[0mC:\Users\amcab\Documents\Trimestre 7\Tendencias\AnagramsGroup\src\test\scala\AnagramsTest.scala:38:5: not found: value HolaMundo[0m
-[0m[[0m[31merror[0m] [0m[0m    HolaMundo.MapFill("moro",expected)[0m
-[0m[[0m[31merror[0m] [0m[0m    ^[0m
-[0m[[0m[31merror[0m] [0m[0mC:\Users\amcab\Documents\Trimestre 7\Tendencias\AnagramsGroup\src\test\scala\AnagramsTest.scala:39:5: not found: value HolaMundo[0m
-[0m[[0m[31merror[0m] [0m[0m    HolaMundo.MapFill("hola",expected)[0m
-[0m[[0m[31merror[0m] [0m[0m    ^[0m
-[0m[[0m[31merror[0m] [0m[0mC:\Users\amcab\Documents\Trimestre 7\Tendencias\AnagramsGroup\src\test\scala\AnagramsTest.scala:40:5: not found: value HolaMundo[0m
-[0m[[0m[31merror[0m] [0m[0m    HolaMundo.MapFill("olah",expected)[0m
-[0m[[0m[31merror[0m] [0m[0m    ^[0m
-[0m[[0m[31merror[0m] [0m[0mC:\Users\amcab\Documents\Trimestre 7\Tendencias\AnagramsGroup\src\test\scala\AnagramsTest.scala:41:5: not found: value HolaMundo[0m
-[0m[[0m[31merror[0m] [0m[0m    HolaMundo.MapFill("moro",expected)[0m
-[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\amcab\Documents\Trimestre 7\Tendencias\AnagramsGroup\src\test\scala\AnagramsTest.scala:37:14: value MapFill is not a member of scala.collection.immutable.Map[String,scala.collection.mutable.ListBuffer[String]][0m
+[0m[[0m[31merror[0m] [0m[0m    Anagrams.MapFill("romo",expected)[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\amcab\Documents\Trimestre 7\Tendencias\AnagramsGroup\src\test\scala\AnagramsTest.scala:38:14: value MapFill is not a member of scala.collection.immutable.Map[String,scala.collection.mutable.ListBuffer[String]][0m
+[0m[[0m[31merror[0m] [0m[0m    Anagrams.MapFill("moro",expected)[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\amcab\Documents\Trimestre 7\Tendencias\AnagramsGroup\src\test\scala\AnagramsTest.scala:39:14: value MapFill is not a member of scala.collection.immutable.Map[String,scala.collection.mutable.ListBuffer[String]][0m
+[0m[[0m[31merror[0m] [0m[0m    Anagrams.MapFill("hola",expected)[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\amcab\Documents\Trimestre 7\Tendencias\AnagramsGroup\src\test\scala\AnagramsTest.scala:40:14: value MapFill is not a member of scala.collection.immutable.Map[String,scala.collection.mutable.ListBuffer[String]][0m
+[0m[[0m[31merror[0m] [0m[0m    Anagrams.MapFill("olah",expected)[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\amcab\Documents\Trimestre 7\Tendencias\AnagramsGroup\src\test\scala\AnagramsTest.scala:41:14: value MapFill is not a member of scala.collection.immutable.Map[String,scala.collection.mutable.ListBuffer[String]][0m
+[0m[[0m[31merror[0m] [0m[0m    Anagrams.MapFill("moro",expected)[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
 [0m[[0m[31merror[0m] [0m[0m5 errors found[0m
